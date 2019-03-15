@@ -1,0 +1,23 @@
+{
+  "name": "fem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "dotenv": "^7.0.0",
+    "petfinder": "^0.1.1",
+    "petfinder-client": "^2.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
