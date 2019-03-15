@@ -9,15 +9,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/core": "^10.0.9",
+    "@emotion/styled": "^10.0.9",
     "@reach/router": "^1.2.1",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "dotenv": "^7.0.0",
+    "emotion": "^10.0.9",
     "petfinder": "^0.1.1",
     "petfinder-client": "^2.0.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-emotion": "^10.0.0",
+    "react-loadable": "^5.5.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "react-test-renderer": "^16.8.4"
   }
 }
